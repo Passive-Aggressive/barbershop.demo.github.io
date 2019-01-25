@@ -1,0 +1,206 @@
+@import url(fonts.css);
+
+/*font-family: 'PT Sans Narrow', sans-serif;*/
+/*font-family: 'Georgiai', sans-serif;*/
+body {
+	background-color: gray;
+}
+#fullpage {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+/*=============*/
+/*======HEADER START=======*/
+/*=============*/
+
+/*=============*/
+/*======HEADER END=======*/
+/*=============*/
+
+
+.top-menu {
+	background-color: black;
+		
+}
+
+.top-menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	min-height: 72px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+
+}
+
+.top-menu li {
+	list-style-type: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 16.99px;
+	font-weight: 700;
+	line-height: 10.206px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.top-menu li {
+	transform: scale(1.0);
+	transition: 0.7s;
+}
+
+.top-menu li:hover {
+	transform: scale(1.1);
+	transition: 0.7s;
+}
+
+.top-menu a {
+	text-decoration: none;
+
+	color: aliceblue;
+	padding: 25px 29px;
+
+}
+
+.border-line {
+	background-color: #826550;
+	height: 0px;
+	width: 60px;
+	display: none;
+	outline: 2px solid #826550;
+}
+
+.top-menu li:hover .border-line {
+	display: block;
+}
+.login-button {
+	margin-left: 40px;
+	background-image: url(../img/png/login-icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
+}
+
+.logo-area {
+	background-image: url(../img/img/back-desktop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	height: 90vh;
+}
+.logo-area img {
+	height: 20%
+}
+
+.top-menu li {
+	list-style-type: none;
+
+}
+
+.top-menu a {
+	text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #ffffff;
+	font-size: 17.99px;
+	font-weight: 700;
+	line-height: 10.206px;
+	text-align: center;
+}
+/*=============*/
+/*======HEADER END=======*/
+/*=============*/
+	
+
+
+
+/*=============*/
+/*======STATISTIC START=======*/
+/*=============*/
+
+.statistics-grid {
+	display: grid;
+	max-width: 960px;
+	
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-rows: 1fr 1fr;
+}
+
+.statistic {
+	max-height: 159px;
+}
+.statistic h5 {
+font-family: 'PT Sans Narrow', sans-serif;
+color: #ffffff;
+font-size: 72px; 
+font-weight: 700;
+line-height: 18px; 
+text-align: left;
+padding-top: 32px;
+padding-left: 37p;
+}
+.statistic p {
+font-family: 'PT Sans Narrow', sans-serif;
+color: #f7f4f1;
+font-size: 20px; 
+line-height: 27px;
+text-align: left;
+padding-top: 109px;
+padding-left: 37p;
+}
+
+.statistic1 {
+	max-height: 318px;
+}
+.statistic1 h5{
+font-family: 'PT Sans Narrow', sans-serif;
+color: #000000;
+font-size: 40px; 
+font-weight: 700;
+line-height: 40px;
+text-align: left;	
+}
+.statistic1 p {
+font-family: 'PT Sans Narrow', sans-serif;
+color: #000000;
+font-size: 20px; 
+line-height: 27px;
+text-align: left;	
+}
+.statistic1 .statistic-dop-info {
+	color: #c9c9c9;
+}
+.statistic1{
+	background-color: #fff;
+	grid-column: 1/2;
+	grid-row: 1/3
+}
+
+.statistic2{
+	background-color: #404040;
+}
+.statistic3{
+	background-color: #4e4e4e;
+}
+.statistic4{
+	background-color: #353535;
+}
+.statistic5{
+	background-color: #404040;
+}
+/*=============*/
+/*======STATISTIC END=======*/
+/*=============*/
+	
+	

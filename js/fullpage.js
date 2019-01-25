@@ -107,7 +107,7 @@
             menu: true,
             anchors:[],
             lockAnchors: false,
-            navigation: true,
+            navigation: false,
             navigationPosition: 'left',
             navigationTooltips: [],
             showActiveTooltip: false,
