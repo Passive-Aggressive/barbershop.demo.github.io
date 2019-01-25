@@ -443,7 +443,7 @@ grid-column:3/4;
 
 @media  (orientation:landscape)   {
 	header {
-	height:  100vh;
+	max-height:  100vh;
 	}
 	
 }
@@ -454,5 +454,5 @@ grid-column:3/4;
 	}
 }
 
-/*=======MEDIA END=======*/
+/*=======MEDIA END=======
 /*=======MEDIA END=======*/
