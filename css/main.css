@@ -386,7 +386,8 @@ grid-column:3/4;
 	}
 
 }
-@media screen and (max-width: 770px) and (orientation:landscape) {
+@media (max-width: 660px)
+{
 	
 	.statistics-grid {
 		grid-template-rows: 159px 110px 110px 110px 110px;
@@ -442,7 +443,7 @@ grid-column:3/4;
 
 @media  (orientation:landscape)   {
 	header {
-/*	height:  100vh;*/
+	height:  100vh;
 	}
 	
 }
