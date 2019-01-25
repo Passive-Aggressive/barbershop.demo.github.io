@@ -20,6 +20,9 @@ body {
 /*======HEADER END=======*/
 /*=============*/
 
+header {
+height: 83.5vh;
+}
 
 .top-menu {
 	background-color: black;
@@ -98,7 +101,7 @@ body {
 	height: 90vh;
 }
 .logo-area img {
-	
+width: 100%	
 	
 }
 
@@ -166,6 +169,7 @@ text-align: left;
 
 .statistic1 {
 	max-height: 318px;
+	
 }
 .statistic1 h5{
 font-family: 'PT Sans Narrow', sans-serif;
@@ -173,7 +177,8 @@ color: #000000;
 font-size: 40px; 
 font-weight: 700;
 line-height: 40px;
-text-align: left;	
+text-align: left;
+	
 }
 .statistic1 p {
 font-family: 'PT Sans Narrow', sans-serif;
@@ -206,5 +211,19 @@ text-align: left;
 /*=============*/
 /*======STATISTIC END=======*/
 /*=============*/
-	
-	
+@media (max-width:970px) {
+.statistic1 h5 {
+padding-top: 16px;
+}	
+header {
+height: 95vh;
+}	
+}	
+@media (max-width:714px) {
+	header {
+height: 100vh;
+}	
+	.statistics-grid {
+		height: 100vh;
+	}
+}
