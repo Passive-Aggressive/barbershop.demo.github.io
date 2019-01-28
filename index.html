@@ -4,134 +4,117 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>BarberShop</title>
-	<meta name="description" content="fullPage auto-height example." />
-	<meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,auto-height,full-screen" />
 	<meta name="Resource-type" content="Document" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!--==FULL PAGE==-->
-	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-	<!--==FULL PAGE==-->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-
-	<!--[if IE]>
-        <script type="text/javascript">
-             var console = { log: function() {} };
-        </script>
-    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/pushy.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	 
 </head>
 
 <body>
+	<div class="wrapper-box">
+		<header>
 
 
-	<div id="fullpage">
+			<nav class="top-menu">
+				<ul>
+
+					<li><a href="">Главная</a>
+						<div class="border-line"></div>
+					</li>
+
+					<li><a href="">наши работы</a>
+						<div class="border-line"></div>
+					</li>
 
 
-		<div class="section fp-auto-height  active " id="section0">
-			<header>
-				<div class="top-menu">
-					<ul>
-
-						<li><a href="">Главная</a>
-							<div class="border-line"></div>
-						</li>
-
-						<li><a href="">наши работы</a>
-							<div class="border-line"></div>
-						</li>
+					<li><a href="">Записаться</a>
+						<div class="border-line"></div>
+					</li>
 
 
-						<li><a href="">Записаться</a>
-							<div class="border-line"></div>
-						</li>
-
-
-						<li><a href="">Контакты</a>
-							<div class="border-line"></div>
-						</li>
+					<li><a href="">Контакты</a>
+						<div class="border-line"></div>
+					</li>
 
 
 
 
-						<li class="login-button"><a href="">Войти</a>
-							<div class="border-line login-border"></div>
-						</li>
+					<li class="login-button"><a href="">Войти</a>
+						<div class="border-line login-border"></div>
+					</li>
+				</ul>
+				<!-- Pushy Menu -->
+			<!-- Pushy Menu -->
+			<!-- Pushy Menu -->
+			<nav class="pushy pushy-right">
+    <div class="pushy-content">
+        <ul>
+            <li class="pushy-link"><a href="#">главная</a></li>
+            <li class="pushy-link"><a href="#">наши работы</a></li>
+            <li class="pushy-link"><a href="#">записаться</a></li>
+            <li class="pushy-link"><a href="#">контакты</a></li>
+            <li class="pushy-link"><a href="#">войти</a></li>
+        </ul>
+    </div>
+</nav>
 
-					</ul>
-					<div class="logo-area">
-					<a href=""><img src="img/png/logotype-desktop.png" alt="Barber Logo" class="main-logo"></a>
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Your Content -->
+<div id="container">
+    <!-- Menu Button -->
+    <button class="menu-btn"><span class="word">главная</span> <div>&#9776</div> </button>
+</div>
+			<!-- Pushy Menu -->
+			<!-- Pushy Menu -->
+			<!-- Pushy Menu -->
+				<div class="logo-area">
+					<a class="logo-link" href=""><img src="img/png/logotype-desktop.png" alt="Barber Logo" class="main-logo"></a>
+					<a class="logo-link-mobile" href=""><img src="img/png/logotype-mobile.png" alt="Barber Logo" class="main-logo"></a>
+					<a class="logo-link-tablet" href=""><img src="img/png/logotype-tablet.png" alt="Barber Logo" class="main-logo"></a>
 				</div>
-				</div>
-				
-			</header>
+			</nav>
 
-		</div>
-		
-
-
-
-
-
-<div class="section fp-auto-height " id="section1">
-			<div class="statistics-grid">
-				<section class="statistic1 statistic">
-					<h5>Стрижка у нас
-						это выгодно!</h5>
-						<div>
+		</header>
+		<div class="statistics-grid">
+			<section class="statistic1 statistic statistic-white">
+				<h5>Стрижка у нас
+					это выгодно!</h5>
+				<div class="statistics-grid-text-box">
 					<p>Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
 					<p class="statistic-dop-info">* — приведённые данные ложь</p>
-					</div>
-				</section>
-				<section class="statistic2 statistic">
-					<h5>1 500 *</h5>
-					<p>рублей вложений</p>
-				</section>
-				<section class="statistic3 statistic">
-					<h5>7 200</h5>
-					<p>секунд времени мастера</p>
-				</section>
-				<section class="statistic4 statistic">
-					<h5>90 000</h5>
-					<p>постриженных волос</p>
-				</section>
-				<section class="statistic5 statistic">
-					<h5>500 000 *</h5>
-					<p>лайков и комплиментов</p>
-				</section>
-			</div>
-</div>
-		<!--
-		<div class="section fp-auto-height " id="section3"></div>
-		<div class="section fp-auto-height " id="section4"></div>
--->
+				</div>
+			</section>
+			<section class="statistic2 statistic">
+				<h5>1 500 *</h5>
+				<p>рублей вложений</p>
+			</section>
+			<section class="statistic3 statistic">
+				<h5>7 200</h5>
+				<p>секунд времени мастера</p>
+			</section>
+			<section class="statistic4 statistic">
+				<h5>90 000</h5>
+				<p>постриженных волос</p>
+			</section>
+			<section class="statistic5 statistic">
+				<h5>500 000 *</h5>
+				<p>лайков и комплиментов</p>
+			</section>
+		</div>
+
 
 
 	</div>
-
-
-
-
-
-
-
-
-
-
-	<!--==FULL PAGE==-->
-	<script type="text/javascript" src="js/scrolloverflow.js"></script>
-	<script type="text/javascript" src="js/fullpage.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	
-
-	<script type="text/javascript">
-		var myFullpage = new fullpage('#fullpage', {
-			verticalCentered: true,
-			anchors: ['anchor1', 'anchor2', 'anchor3'],
-			menu: '#menu',
-		});
-	</script>
-	<!--==FULL PAGE==-->
+	<footer></footer>
+	<!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Pushy JS -->
+        <script src="js/pushy.min.js"></script>
 </body>
 
 </html>

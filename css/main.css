@@ -453,6 +453,11 @@ grid-column:3/4;
 		font-size: 16.99px;
 	}
 }
+@media (max-width:411px) {
+	.top-menu {
+		display: none;
+	}
+}
 
 /*=======MEDIA END=======
 /*=======MEDIA END=======*/
