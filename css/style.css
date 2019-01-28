@@ -387,6 +387,8 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+	
+		padding: 0;
 
 	}
 
@@ -408,7 +410,7 @@ body {
 		background-color: #6a4d38;
 		width: 75px;
 		height: 59px;
-		margin-right: -4px;
+		
 	}
 
 	.pushy ul {
