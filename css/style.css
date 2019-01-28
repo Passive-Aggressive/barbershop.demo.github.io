@@ -23,7 +23,7 @@ body {
 }
 
 .menu-btn {
-display: none;
+	display: none;
 }
 
 
@@ -192,7 +192,7 @@ display: none;
 }
 
 .statistic1 {
-	
+
 	max-height: 318px;
 
 }
@@ -250,7 +250,7 @@ display: none;
 /*======STATISTIC MEDIA START=======*/
 /*=============*/
 
-@media (max-width:960px){
+@media (max-width:960px) {
 	.statistics-grid {
 		grid-template-rows: 1fr 1fr 1fr;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -286,6 +286,7 @@ display: none;
 		grid-column: 3/5;
 		grid-row: 3/4;
 	}
+
 	.logo-link {
 		display: none;
 	}
@@ -296,9 +297,8 @@ display: none;
 
 }
 
-@media (max-width: 768px)
-{
-	
+@media (max-width: 768px) {
+
 	.statistics-grid {
 		grid-template-rows: 184px 110px 110px 110px 110px;
 		grid-template-columns: 100%;
@@ -308,18 +308,21 @@ display: none;
 		background-color: white;
 		grid-column: 1/2;
 		grid-row: 1/2;
-		max-height: 184px;	
+		max-height: 184px;
 	}
+
 	.statistic1 h5 {
 		max-width: 240px;
-		
+
 	}
+
 	.statistic1 p {
 		padding-top: 45px;
 		max-width: 240px;
 		padding-left: 0;
-		
+
 	}
+
 	.statistic1 .statistic-dop-info {
 		padding-top: 20px;
 	}
@@ -329,8 +332,8 @@ display: none;
 		grid-row: 2/3;
 		display: flex;
 		justify-content: space-around;
-		
-		
+
+
 	}
 
 	.statistic3 {
@@ -338,7 +341,7 @@ display: none;
 		grid-row: 3/4;
 		display: flex;
 		justify-content: space-around;
-		
+
 	}
 
 	.statistic4 {
@@ -346,7 +349,7 @@ display: none;
 		grid-row: 4/5;
 		display: flex;
 		justify-content: space-around;
-		
+
 	}
 
 	.statistic5 {
@@ -354,9 +357,9 @@ display: none;
 		grid-row: 5/6;
 		display: flex;
 		justify-content: space-around;
-		
+
 	}
-	
+
 }
 
 
@@ -366,11 +369,12 @@ display: none;
 		height: 60vh;
 	}
 
-	
+
 
 	.top-menu ul {
 		display: none;
 	}
+
 	.menu-btn {
 		display: block;
 		position: absolute;
@@ -383,23 +387,31 @@ display: none;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-	}
-	..menu-btn:active {
 
 	}
+
+	..menu-btn:active {}
+
 	.menu-btn span {
-	font-size: 18px;
+		font-size: 18px;
+		padding-left: 40%;
+		font-family: 'PT Sans Narrow', sans-serif;
+		color: #ffffff;
+		font-size: 18px;
 		text-transform: uppercase;
-		padding-left: 55px;
+		font-weight: 700;
+		line-height: 24px;
+		text-align: center;
 	}
+
 	.menu-btn div {
 		background-color: #6a4d38;
 		width: 75px;
 		height: 59px;
-		
 		margin-right: -4px;
 	}
-	.pushy ul  {
+
+	.pushy ul {
 		font-size: 10px;
 		color: aliceblue;
 		display: flex;
@@ -409,44 +421,64 @@ display: none;
 }
 
 @media (max-width:660px) {
-	.statistic2 h5, .statistic3 h5, .statistic4 h5, .statistic5 h5 {
+
+	.statistic2 h5,
+	.statistic3 h5,
+	.statistic4 h5,
+	.statistic5 h5 {
 		font-size: 60px;
 	}
-	.statistic2 p, .statistic3 p, .statistic4 p, .statistic5 p {
+
+	.statistic2 p,
+	.statistic3 p,
+	.statistic4 p,
+	.statistic5 p {
 		font-size: 30px;
-	}	
+	}
 }
-@media (max-width:540px) { 
+
+@media (max-width:540px) {
 	.statistics-grid {
 		grid-template-rows: 270px 110px 110px 110px 110px;
 		grid-template-columns: 100%;
 	}
-	.statistic2 h5, .statistic3 h5, .statistic4 h5, .statistic5 h5 {
+
+	.statistic2 h5,
+	.statistic3 h5,
+	.statistic4 h5,
+	.statistic5 h5 {
 		font-size: 40px;
 		padding-left: 20px;
 	}
-	.statistic2 p, .statistic3 p, .statistic4 p, .statistic5 p {
+
+	.statistic2 p,
+	.statistic3 p,
+	.statistic4 p,
+	.statistic5 p {
 		font-size: 20px;
 	}
-	
-	
+
+
 	.statistic1 {
 		max-height: 300px;
 		flex-direction: column;
 		align-items: center;
 		align-content: center;
 	}
-	.statistic1	h5 {
+
+	.statistic1 h5 {
 		font-size: 40px;
 		padding-top: 10px;
 		padding-left: 40px;
 	}
+
 	.statistic1 p {
-	padding-top: 30px;
-	padding-left: 40px;
-	font-size: 21px;
-	max-width: 300px;
+		padding-top: 30px;
+		padding-left: 40px;
+		font-size: 21px;
+		max-width: 300px;
 	}
+
 	.statistics-grid-text-box {
 		height: 200px;
 	}
@@ -455,8 +487,8 @@ display: none;
 
 
 @media (max-width:414px) {
-	
-	
+
+
 	.logo-link-tablet {
 		display: none;
 	}
@@ -465,20 +497,19 @@ display: none;
 		display: block;
 		margin-top: 60px;
 	}
-	
-	.statistic {
-		
-		
-	}
+
+	.statistic {}
 }
+
 @media (max-width:360px) {
-	.statistic h5 {
-		
-		
-	}
-	.statistic2 p, .statistic3 p, .statistic4 p, .statistic5 p {
-	font-size: 18px;	
-	max-width: 109px;
+	.statistic h5 {}
+
+	.statistic2 p,
+	.statistic3 p,
+	.statistic4 p,
+	.statistic5 p {
+		font-size: 18px;
+		max-width: 109px;
 	}
 }
 
