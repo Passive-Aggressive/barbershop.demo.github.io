@@ -3,7 +3,7 @@
 /*font-family: 'PT Sans Narrow', sans-serif;*/
 /*font-family: 'Georgiai', sans-serif;*/
 body {
-	background-color: #353535;
+	background-color: white;
 	margin: 0;
 }
 
@@ -250,7 +250,7 @@ body {
 /*======STATISTIC MEDIA START=======*/
 /*=============*/
 
-@media (max-width:960px) {
+@media (max-width:976px) {
 	.statistics-grid {
 		grid-template-rows: 1fr 1fr 1fr;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -517,4 +517,119 @@ body {
 
 /*=============*/
 /*======STATISTIC MEDIA END=======*/
+/*=============*/
+
+
+
+/*=============*/
+/*======ADVANTAGES START=======*/
+/*=============*/
+.wow-slider {
+	display: none;
+}
+
+.advantages {
+background-color: #353535;
+}
+.angle {
+	margin-bottom: -5px;
+	width: 100%;
+}
+.advantages-flexbox {
+	
+	margin-top: -135px;
+	padding-top: 238px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.advantage {
+text-align: center;
+max-width:228px;
+}
+.advantage h5 {
+font-family: 'PT Sans Narrow', sans-serif;
+color: #f7f4f1;
+font-size: 30.01px; 
+font-weight: 700;
+line-height: 12.757px; 
+text-align: center;	
+}
+.advantage p {
+font-family: 'PT Sans Narrow', sans-serif;
+color: #f7f4f1;
+font-size: 20px; 
+line-height: 27px; 
+text-align: center;
+}
+.advantage2 {
+border-left:1px solid #4a4a4a ;
+border-right:1px solid #4a4a4a ;
+padding-left: 61px;
+padding-right: 61px;
+}
+.advantage1 {
+padding-right: 45px;
+}
+.advantage3 {
+padding-left: 45px;	
+}
+/*=============*/
+/*======ADVANTAGES END=======*/
+/*=============*/
+
+/*=============*/
+/*======ADVANTAGES MEDIA START=======*/
+/*=============*/
+@media (max-width:960px) {
+	.advantages-flexbox {
+		flex-direction: column;
+		padding-top: 140px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.advantage {
+		display: flex;
+		align-items:center;
+		max-width:74%;
+		margin-left: 13%;
+	}
+	.advantage-text-box {
+	padding-left: 20px;
+	
+	}
+	.advantage h5 {
+	text-align: left;
+	margin-bottom: 21px;
+	}
+	.advantage p {
+	text-align: left;	
+	}
+	
+	.advantage1 {
+padding:0;
+}
+	.advantage2 {
+border-left:0px solid #4a4a4a ;
+border-right:0px solid #4a4a4a ;
+border-top:1px solid #4a4a4a ;
+border-bottom:1px solid #4a4a4a ;
+padding:0;
+}
+	.advantage3 {
+padding:0;
+}
+}
+@media (max-width:414px) {
+	.wow-slider {
+		display: block;
+	}
+	.advantages-flexbox {
+		display: none;
+	}
+}
+	
+
+/*=============*/
+/*======ADVANTAGES MEDIA END=======*/
 /*=============*/
